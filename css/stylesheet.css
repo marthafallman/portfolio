@@ -67,6 +67,10 @@ p {
   font-size: 2cqw;
   padding-top: 50px;
 }
+#content h2 {
+  font-size: 4cqw;
+  margin-top: 15%;
+}
 
 #box1 {
   background-color: white;
@@ -130,4 +134,223 @@ p {
 footer {
   background-color: white;
   height: 200px;
+}
+
+#presentationskort {
+  background-color: white;
+  aspect-ratio: 9/16;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+
+#studiestartsprov {
+  background-color: white;
+  aspect-ratio: 9/16;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+#stockholm {
+  background-color: white;
+  aspect-ratio: 9/16;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+#spel {
+  background-color: white;
+  aspect-ratio: 9/16;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+#passionsite {
+  background-color: white;
+  aspect-ratio: 9/16;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+
+#verksamhetssite {
+  background-color: white;
+  aspect-ratio: 9/16;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+
+@media (min-width: 900px) {
+  #screen {
+    background-image: url(/img/b2.png);
+    aspect-ratio: 16/9;
+    max-width: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #box {
+    width: 60cqw;
+    height: 30cqw;
+    background-color: white;
+    position: absolute;
+    left: 20%;
+    padding-top: 10%;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin-left: 3%;
+    font-size: 3cqw;
+    text-align: center;
+    font-family: "Inter", serif;
+    font-style: normal;
+    color: #565656;
+    margin-bottom: -5%;
+  }
+
+  h3 {
+    font-size: 2cqw;
+  }
+
+  li {
+    font-size: 1.2cqw;
+  }
+  p {
+    font-size: 1.5cqw;
+    padding-top: 50px;
+    font-weight: 500;
+    padding-bottom: 50px;
+  }
+
+  #box1 {
+    background-color: white;
+    width: 23cqw;
+    height: 15cqw;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+  }
+  #box2 {
+    background-color: white;
+    width: 23cqw;
+    height: 15cqw;
+    position: absolute;
+    left: 37.5%;
+    top: 15%;
+  }
+  #box3 {
+    background-color: white;
+    width: 23cqw;
+    height: 15cqw;
+    position: absolute;
+    left: 65%;
+    top: 15%;
+  }
+  #box4 {
+    background-color: white;
+    width: 23cqw;
+    height: 15cqw;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+  }
+  #box5 {
+    background-color: white;
+    width: 23cqw;
+    height: 15cqw;
+    position: absolute;
+    left: 37.5%;
+    top: 50%;
+  }
+  #box6 {
+    background-color: white;
+    width: 23cqw;
+    height: 15cqw;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+  }
+
+  #content h2 {
+    font-size: 1.5cqw;
+    margin-top: 27%;
+  }
+
+  #presentationskort {
+    background-color: white;
+    aspect-ratio: 16/9;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+  }
+  #studiestartsprov {
+    background-color: white;
+    aspect-ratio: 16/9;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+  }
+  #stockholm {
+    background-color: white;
+    aspect-ratio: 16/9;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+  }
+  #spel {
+    background-color: white;
+    aspect-ratio: 16/9;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+  }
+  #passionsite {
+    background-color: white;
+    aspect-ratio: 16/9;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+  }
+  #verksamhetssite {
+    background-color: white;
+    aspect-ratio: 16/9;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+  }
+
+  #close1 img,
+  #close2 img,
+  #close3 img,
+  #close4 img,
+  #close5 img,
+  #close6 img {
+    width: 4%;
+    height: 4%;
+    aspect-ratio: 1/1;
+    position: absolute;
+    left: 94%;
+    top: 4%;
+  }
+}
+
+.hide {
+  display: none;
 }
