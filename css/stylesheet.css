@@ -44,6 +44,12 @@ a:visited {
   left: 12%;
   padding-top: 20%;
 }
+#box img {
+  width: 20%;
+  position: absolute;
+  left: 41%;
+  top: 65%;
+}
 
 h1,
 h2,
@@ -187,6 +193,20 @@ footer {
   top: 5%;
 }
 
+#close1 img,
+#close2 img,
+#close3 img,
+#close4 img,
+#close5 img,
+#close6 img {
+  width: 8%;
+  height: 8%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  left: 85%;
+  top: 2%;
+}
+
 @media (min-width: 900px) {
   #screen {
     background-image: url(/img/b2.png);
@@ -204,6 +224,13 @@ footer {
     position: absolute;
     left: 20%;
     padding-top: 10%;
+  }
+
+  #box img {
+    width: 7%;
+    position: absolute;
+    left: 48%;
+    top: 70%;
   }
 
   h1,
@@ -353,4 +380,20 @@ footer {
 
 .hide {
   display: none;
+}
+
+.fall {
+  animation-name: fall;
+  animation-duration: 1.2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fall {
+  from {
+    translate: 0 -110%;
+  }
+  to {
+    translate: 0 0%;
+  }
 }
