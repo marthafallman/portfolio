@@ -88,7 +88,7 @@ h3 {
 }
 
 p {
-  font-size: 2.7cqw;
+  font-size: 2.6cqw;
   font-family: "Inter", serif;
   font-style: normal;
   color: #565656;
@@ -325,6 +325,34 @@ a:visited {
   text-decoration: underline;
 }
 
+.grid_2-3 img {
+  width: 65cqw;
+  object-fit: cover;
+  object-position: 0% 23%;
+  aspect-ratio: 10/8;
+  padding-top: 5%;
+  margin-left: 7.5%;
+  margin-bottom: 5%;
+}
+
+#ommig {
+  width: 77cqw;
+  height: 210cqw;
+  background-color: white;
+  position: absolute;
+  left: 5%;
+  top: -4%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#kompetens p {
+  font-size: 3cqw;
+}
+#kompetens {
+  padding: 1%;
+}
+
 @media (min-width: 900px) {
   #screen {
     aspect-ratio: 16/12;
@@ -476,48 +504,6 @@ a:visited {
     padding-bottom: 4%;
   }
 
-  #studiestartsprov {
-    background-color: rgb(255, 255, 255);
-    aspect-ratio: 16/12;
-    width: 85%;
-    position: absolute;
-    left: 7.5%;
-    top: 7.5%;
-  }
-  #stockholm {
-    background-color: white;
-    aspect-ratio: 16/12;
-    width: 85%;
-    position: absolute;
-    left: 7.5%;
-    top: 7.5%;
-  }
-  #spel {
-    background-color: white;
-    aspect-ratio: 16/12.5;
-    width: 85%;
-    position: absolute;
-    left: 7.5%;
-    top: 6%;
-  }
-  #passionsite {
-    background-color: white;
-    aspect-ratio: 16/12;
-    width: 85%;
-    position: absolute;
-    left: 7.5%;
-    top: 7.5%;
-  }
-  #verksamhetssite {
-    background-color: white;
-    aspect-ratio: 16/12;
-    width: 85%;
-    position: absolute;
-    left: 7.5%;
-    top: 7.5%;
-    padding-left: 2%;
-  }
-
   #close1 img,
   #close2 img,
   #close3 img,
@@ -617,6 +603,90 @@ a:visited {
   .indextext h2 {
     margin-top: -3%;
     font-size: 2.5cqw;
+  }
+
+  #studiestartsprov {
+    background-color: rgb(255, 255, 255);
+    aspect-ratio: 16/12;
+    width: 85%;
+    position: absolute;
+    left: 7.5%;
+    top: 7.5%;
+  }
+  #stockholm {
+    background-color: white;
+    aspect-ratio: 16/12;
+    width: 85%;
+    position: absolute;
+    left: 7.5%;
+    top: 7.5%;
+  }
+  #spel {
+    background-color: white;
+    aspect-ratio: 16/12.5;
+    width: 85%;
+    position: absolute;
+    left: 7.5%;
+    top: 6%;
+  }
+  #passionsite {
+    background-color: white;
+    aspect-ratio: 16/12;
+    width: 85%;
+    position: absolute;
+    left: 7.5%;
+    top: 7.5%;
+  }
+  #verksamhetssite {
+    background-color: white;
+    aspect-ratio: 16/12;
+    width: 85%;
+    position: absolute;
+    left: 7.5%;
+    top: 7.5%;
+    padding-left: 2%;
+  }
+
+  #ommig {
+    width: 80cqw;
+    height: 60cqw;
+    background-color: white;
+    position: absolute;
+    left: 10%;
+    top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .grid_2-3 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    gap: 10%;
+  }
+  .grid_2-3 img {
+    max-width: 25cqw;
+    aspect-ratio: 9/11.5;
+  }
+
+  .grid_2-3 h2 {
+    text-align: left;
+    font-size: 2cqw;
+    margin-left: -1%;
+  }
+
+  #kompetens p {
+    font-size: 1cqw;
+  }
+  #kompetens {
+    padding-top: 5%;
+  }
+
+  #kontakt {
+    margin-left: 12.5%;
+    margin-top: 2%;
   }
 }
 
