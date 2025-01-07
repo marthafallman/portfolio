@@ -192,7 +192,7 @@ footer p {
 
 #presentationskort {
   background-color: var(--box-color);
-  aspect-ratio: 9/22;
+  aspect-ratio: 9/23;
   width: 80%;
   position: absolute;
   left: 10%;
@@ -215,19 +215,19 @@ iframe {
 }
 #studiestartsprov {
   background-color: var(--box-color);
-  aspect-ratio: 9/22;
+  aspect-ratio: 9/23;
   width: 80%;
   position: absolute;
   left: 10%;
-  top: 5%;
+  top: 3%;
 }
 #stockholm {
   background-color: var(--box-color);
-  aspect-ratio: 9/22;
+  aspect-ratio: 9/23;
   width: 80%;
   position: absolute;
   left: 10%;
-  top: 5%;
+  top: 3%;
 }
 #spel {
   background-color: var(--box-color);
@@ -235,15 +235,15 @@ iframe {
   width: 80%;
   position: absolute;
   left: 10%;
-  top: 5%;
+  top: 3%;
 }
 #passionsite {
   background-color: var(--box-color);
-  aspect-ratio: 9/22;
+  aspect-ratio: 9/23;
   width: 80%;
   position: absolute;
   left: 10%;
-  top: 5%;
+  top: 3%;
 }
 
 #textpassion {
@@ -256,11 +256,11 @@ iframe {
 
 #verksamhetssite {
   background-color: var(--box-color);
-  aspect-ratio: 9/22;
+  aspect-ratio: 9/23;
   width: 80%;
   position: absolute;
   left: 10%;
-  top: 5%;
+  top: 3%;
 }
 
 #close1 img,
