@@ -41,7 +41,7 @@ nav a:visited {
 }
 
 #screen {
-  background-image: url(../img/bg.webp);
+  background-image: url(../img/background.webp);
   aspect-ratio: 9/20;
   max-width: 100%;
   background-size: cover;
@@ -421,7 +421,6 @@ a:visited {
     position: relative;
     aspect-ratio: 16/9;
     overflow: hidden;
-    background-image: url(/img/bg.webp);
     background-size: cover;
     overflow: hidden;
   }
