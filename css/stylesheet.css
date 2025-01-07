@@ -1,7 +1,5 @@
 :root {
   --primary-font: "cofo-gothic-variable", sans-serif;
-  --secondary-font-weight: "wght" 800;
-  --font-variation: "wght" 900;
   --body-font: "merriweather", serif;
   --body-fontweight: 500;
   --primary-color: #565656;
@@ -29,7 +27,7 @@ li {
   padding: 0.2em;
   padding-top: 10px;
   font-family: var(--primary-font);
-  font-variation-settings: var(--secondary-font-weight);
+  font-variation-settings: "wght" 800;
   font-size: 3cqw;
 }
 
@@ -81,7 +79,7 @@ h3 {
   margin-left: 3%;
   font-size: 6cqw;
   font-family: var(--primary-font);
-  font-variation-settings: var(--font-variation);
+  font-variation-settings: "wght" 900;
   text-align: center;
   color: var(--primary-color);
   margin-top: 20%;
@@ -92,7 +90,7 @@ h2 {
   font-size: 5cqw;
   text-align: center;
   font-family: var(--primary-font);
-  font-variation-settings: var(--secondary-font-weight);
+  font-variation-settings: "wght" 800;
   color: var(--primary-color);
   margin-top: 2%;
 }
@@ -182,7 +180,7 @@ footer {
 footer p {
   font-size: 2.5cqw;
   font-family: var(--primary-font);
-  font-variation-settings: var(--secondary-font-weight);
+  font-variation-settings: "wght" 800;
   text-align: center;
   color: var(--primary-color);
 }
