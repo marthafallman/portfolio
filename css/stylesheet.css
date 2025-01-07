@@ -231,7 +231,7 @@ iframe {
 }
 #spel {
   background-color: var(--box-color);
-  aspect-ratio: 9/23;
+  aspect-ratio: 9/23.5;
   width: 80%;
   position: absolute;
   left: 10%;
@@ -303,6 +303,8 @@ iframe {
   top: 77.5%;
   left: 5%;
   list-style-type: none;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 .scroll-container4 {
@@ -354,7 +356,7 @@ a:visited {
 
 #ommig {
   width: 77cqw;
-  height: 210cqw;
+  height: 220cqw;
   background-color: var(--box-color);
   position: absolute;
   left: 5%;
